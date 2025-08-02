@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste de exportação de midia</title>
+</head>
+<body>
+    <h1>testado imagens de tamaho variado na pagina (300x300 700x700 1000x1000)</h1>
+    <p>altere o tamanho da janela do navegador para ver as diferentes imagens</p>
+    <picture>
+        <source media="(max-width: 725px )" srcset="../imagens/pequena.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="../imagens/media.png" type="image/png">
+        <img src="../imagens/grande.png" alt="imagem com variaveis de tamanho">
+        
+    </picture>
+    <h1>teste de audio</h1>
+    <p>Uma das piores musicas que ja ouvi, mas serviu para o teste</p>
+    <audio src="../audio/AUDIO TESTE MUSICA RUIM.mp3" controls ></audio>
+    <p>caso não consiga baixar esse horror e queira por algum motivo ta ai o download <a href="../audio/AUDIO TESTE MUSICA RUIM.mp3">download</a></p>
+    
+</body>
+</html>
